@@ -34,7 +34,7 @@ behave
 behave -D BROWSER=firefox
 
 # TO RUN ALL FEATURES USING ALLURE REPORTS
-behave -f allure_behave.formatter:AllureFormatter -o 
+behave -f allure_behave.formatter:AllureFormatter -o reports/
 
 # VIEW TEST REPORTS
 allure serve reports/
