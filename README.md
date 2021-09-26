@@ -6,12 +6,12 @@ Search for an item on noon.com , add it to the wish list and move it to the cart
 ### Note:
 This project implemented and tested on the following specs
 
-1- Ubuntu 20.4
-2- python3 
-3- behave framework
-4- selenium webdriver
-5- allure report
-6- Chrome webdriver
+1. Ubuntu 20.4
+2. python3 
+3. behave framework
+4. selenium webdriver
+5. allure report
+6. Chrome webdriver
 
 ## Installation
 
@@ -40,7 +40,7 @@ behave -f allure_behave.formatter:AllureFormatter -o
 allure serve reports/
 ```
 ### To be added later
-1- Automate OTP verfication 
-2- Make more complex End to End scenario
-3- Add CI/CD with Jenkins or Travis
+1. Automate OTP verfication 
+2. Make more complex End to End scenario
+3. Add CI/CD with Jenkins or Travis
 
