@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 import logging
 import os
 from allure_behave.hooks import allure_report
@@ -17,6 +18,8 @@ def before_scenario(context, scenario):
         browser = 'chrome'
 
     if browser == 'chrome':
+        #chrome_options = Options()
+        #chrome_options.add_argument("--kiosk")
         context.browser = webdriver.Chrome()
     elif browser == 'firefox':
         context.browser = webdriver.Firefox()

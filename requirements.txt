@@ -1,0 +1,4 @@
+selenium==3.141.0
+allure_behave==2.8.0
+Faker==8.10.3
+assertpy==1.1
